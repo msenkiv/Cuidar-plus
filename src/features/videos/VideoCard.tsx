@@ -22,16 +22,17 @@ export function VideoCard({ id, youtubeId, titulo, categoria, duracaoMin }: Prop
   };
 
   return (
-    <Card shadow="sm" padding="sm" radius="md" withBorder>
+    <Card className="video-card" shadow="sm" padding="sm" radius="md" withBorder>
       <Card.Section>
         <Image
           src={`https://img.youtube.com/vi/${youtubeId}/hqdefault.jpg`}
+          fallbackSrc="/placeholder.svg"
           alt={titulo}
           height={180}
         />
       </Card.Section>
 
-      <Group position="apart" mt="sm" mb="xs">
+      <Group justify="space-between" mt="sm" mb="xs">
         <Text fw={500} lineClamp={2}>{titulo}</Text>
       </Group>
 
@@ -39,7 +40,7 @@ export function VideoCard({ id, youtubeId, titulo, categoria, duracaoMin }: Prop
       <Badge color="gray" variant="light" ml="xs">{duracaoMin} min</Badge>
       {watched && <Badge color="green" variant="light" ml="xs">Visto</Badge>}
 
-      <Group mt="sm" position="apart">
+      <Group mt="sm" justify="space-between">
         <Tooltip label={fav ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}>
           <ActionIcon onClick={handleToggleFavorite} color={fav ? 'red' : 'gray'}>
             {fav ? <IconHeartFilled /> : <IconHeart />}

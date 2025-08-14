@@ -8,7 +8,13 @@ const videoSchema = z.object({
   titulo: z.string(),
   descricao: z.string(),
   duracaoMin: z.number(),
-  categoria: z.string(),
+  categoria: z.enum([
+    'Queimaduras',
+    'Troca de Ataduras',
+    'Higiene da Ferida',
+    'Medicação',
+    'Sinais de Alerta',
+  ]),
   materiais: z.array(z.string()),
   passos: z.array(z.string()),
   avisos: z.array(z.string()),
@@ -20,5 +26,5 @@ export async function loadVideos(): Promise<Video[]> {
     console.error('Erro de validação dos vídeos', parsed.error);
     return [];
   }
-  return parsed.data;
+  return parsed.data as Video[];
 }

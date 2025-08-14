@@ -1,5 +1,9 @@
 // src/App.tsx (corrigido)
-import { MantineProvider, ColorSchemeScript, localStorageColorSchemeManager } from '@mantine/core';
+import {
+  MantineProvider,
+  ColorSchemeScript,
+  localStorageColorSchemeManager,
+} from '@mantine/core';
 import { Notifications } from '@mantine/notifications';
 import { RouterProvider } from './app/providers/RouterProvider';
 import { AuthProvider } from './features/auth/AuthContext';
@@ -11,10 +15,14 @@ export default function App() {
     <>
       <ColorSchemeScript defaultColorScheme="light" />
       <MantineProvider
-        withGlobalStyles
-        withNormalizeCSS
         defaultColorScheme="light"
         colorSchemeManager={colorSchemeManager}
+        theme={{
+          primaryColor: 'teal',
+          defaultRadius: 'md',
+          fontFamily: 'Poppins, sans-serif',
+          headings: { fontFamily: 'Poppins, sans-serif' },
+        }}
       >
         <Notifications position="top-right" />
         <AuthProvider>

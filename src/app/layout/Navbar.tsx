@@ -15,9 +15,9 @@ export function Navbar() {
   };
 
   return (
-    <Group px="md" py="sm" position="apart" bg="var(--mantine-color-body)">
+    <Group px="md" py="sm" justify="space-between" bg="var(--mantine-color-body)">
       <Text fw={700} size="lg">Cuidar+</Text>
-      <Group spacing="md">
+      <Group gap="md">
         <Link to="/">Início</Link>
         <Link to="/favoritos">Favoritos</Link>
         <Link to="/sobre">Sobre</Link>
