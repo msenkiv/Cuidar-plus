@@ -17,7 +17,7 @@ export function FavoritesPage() {
   return (
     <Container>
       <Title order={2} my="md">Favoritos</Title>
-      <SimpleGrid cols={3} spacing="md" breakpoints={[{ maxWidth: 'sm', cols: 1 }]}>
+      <SimpleGrid cols={{ base: 1, sm: 3 }} spacing="md">
         {videos.map((video) => (
           <VideoCard key={video.id} {...video} />
         ))}
