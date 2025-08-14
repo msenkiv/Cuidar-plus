@@ -1,0 +1,167 @@
+[
+  {
+    "id": "1",
+    "youtubeId": "abcd1234",
+    "titulo": "Cuidados com queimaduras leves",
+    "descricao": "Aprenda como tratar queimaduras leves de forma segura em casa.",
+    "duracaoMin": 4,
+    "categoria": "Queimaduras",
+    "materiais": ["Água corrente", "Gaze estéril", "Pomada para queimaduras"],
+    "passos": ["Lavar a área com água corrente", "Aplicar pomada", "Cobrir com gaze"],
+    "avisos": ["Não aplicar gelo", "Não estourar bolhas"]
+  },
+  {
+    "id": "2",
+    "youtubeId": "efgh5678",
+    "titulo": "Troca de atadura no braço",
+    "descricao": "Troque a atadura corretamente para evitar infecções.",
+    "duracaoMin": 6,
+    "categoria": "Troca de Ataduras",
+    "materiais": ["Atadura limpa", "Tesoura", "Álcool 70%"],
+    "passos": ["Remover atadura antiga", "Limpar a ferida", "Colocar nova atadura"],
+    "avisos": ["Usar material estéril", "Evitar tocar na ferida com as mãos"]
+  },
+  {
+    "id": "3",
+    "youtubeId": "ijkl9012",
+    "titulo": "Higienização de ferida cirúrgica",
+    "descricao": "Passo a passo para higienizar a ferida cirúrgica corretamente.",
+    "duracaoMin": 8,
+    "categoria": "Higiene da Ferida",
+    "materiais": ["Soro fisiológico", "Gaze", "Luvas descartáveis"],
+    "passos": ["Lavar as mãos", "Aplicar soro na gaze", "Limpar a ferida do centro para fora"],
+    "avisos": ["Não reutilizar materiais", "Descartar luvas corretamente"]
+  },
+  {
+    "id": "4",
+    "youtubeId": "mnop3456",
+    "titulo": "Como tomar medicação oral pós-cirurgia",
+    "descricao": "Dicas para tomar medicação oral de forma correta.",
+    "duracaoMin": 3,
+    "categoria": "Medicação",
+    "materiais": ["Copo com água", "Medicamento prescrito"],
+    "passos": ["Conferir a prescrição", "Ingerir com água", "Não deitar logo após tomar"],
+    "avisos": ["Não tomar com bebidas alcoólicas", "Seguir horários indicados"]
+  },
+  {
+    "id": "5",
+    "youtubeId": "qrst7890",
+    "titulo": "Sinais de alerta em pós-operatório",
+    "descricao": "Identifique sinais de complicações após cirurgia.",
+    "duracaoMin": 5,
+    "categoria": "Sinais de Alerta",
+    "materiais": ["Termômetro", "Relógio"],
+    "passos": ["Observar temperatura", "Monitorar dor", "Verificar sangramento"],
+    "avisos": ["Febre acima de 38°C", "Dor intensa", "Sangramento abundante"]
+  },
+  {
+    "id": "6",
+    "youtubeId": "abcd5678",
+    "titulo": "Troca de curativo simples",
+    "descricao": "Troque curativos pequenos de forma higiênica.",
+    "duracaoMin": 4,
+    "categoria": "Troca de Ataduras",
+    "materiais": ["Curativo adesivo", "Álcool 70%"],
+    "passos": ["Retirar curativo antigo", "Limpar área", "Colocar novo curativo"],
+    "avisos": ["Usar luvas", "Não reutilizar curativo"]
+  },
+  {
+    "id": "7",
+    "youtubeId": "efgh9012",
+    "titulo": "Lavar queimadura com soro",
+    "descricao": "Utilize soro fisiológico para limpeza adequada.",
+    "duracaoMin": 5,
+    "categoria": "Queimaduras",
+    "materiais": ["Soro fisiológico", "Gaze"],
+    "passos": ["Lavar área com soro", "Secar levemente", "Cobrir com gaze"],
+    "avisos": ["Evitar fricção", "Manter área limpa"]
+  },
+  {
+    "id": "8",
+    "youtubeId": "ijkl3456",
+    "titulo": "Higiene das mãos antes do curativo",
+    "descricao": "Técnica correta para lavar as mãos.",
+    "duracaoMin": 2,
+    "categoria": "Higiene da Ferida",
+    "materiais": ["Sabão neutro", "Água corrente"],
+    "passos": ["Molhar as mãos", "Ensaboar", "Enxaguar e secar"],
+    "avisos": ["Usar toalha limpa", "Não tocar superfícies sujas"]
+  },
+  {
+    "id": "9",
+    "youtubeId": "mnop7890",
+    "titulo": "Aplicar pomada antibiótica",
+    "descricao": "Forma correta de aplicar pomada para evitar infecção.",
+    "duracaoMin": 3,
+    "categoria": "Medicação",
+    "materiais": ["Pomada antibiótica", "Luvas descartáveis"],
+    "passos": ["Lavar as mãos", "Aplicar pomada", "Cobrir ferida se necessário"],
+    "avisos": ["Não usar pomada vencida", "Seguir orientação médica"]
+  },
+  {
+    "id": "10",
+    "youtubeId": "qrst1234",
+    "titulo": "Medindo febre corretamente",
+    "descricao": "Como medir a temperatura corporal no pós-operatório.",
+    "duracaoMin": 2,
+    "categoria": "Sinais de Alerta",
+    "materiais": ["Termômetro digital"],
+    "passos": ["Ligar termômetro", "Posicionar corretamente", "Aguardar leitura"],
+    "avisos": ["Higienizar termômetro", "Seguir instruções do fabricante"]
+  },
+  {
+    "id": "11",
+    "youtubeId": "abcd9012",
+    "titulo": "Enfaixar queimadura no braço",
+    "descricao": "Técnica para enfaixar queimaduras.",
+    "duracaoMin": 7,
+    "categoria": "Queimaduras",
+    "materiais": ["Gaze", "Atadura"],
+    "passos": ["Cobrir queimadura", "Enfaixar suavemente", "Fixar ponta"],
+    "avisos": ["Não apertar demais", "Trocar diariamente"]
+  },
+  {
+    "id": "12",
+    "youtubeId": "efgh3456",
+    "titulo": "Troca de curativo em ferida profunda",
+    "descricao": "Cuidados especiais em feridas mais graves.",
+    "duracaoMin": 12,
+    "categoria": "Troca de Ataduras",
+    "materiais": ["Gaze estéril", "Pinça", "Soro fisiológico"],
+    "passos": ["Lavar mãos", "Retirar curativo antigo com pinça", "Aplicar novo curativo"],
+    "avisos": ["Usar material estéril", "Evitar contato direto"]
+  },
+  {
+    "id": "13",
+    "youtubeId": "ijkl7890",
+    "titulo": "Limpeza de ferida no pé",
+    "descricao": "Procedimento para feridas nos pés.",
+    "duracaoMin": 6,
+    "categoria": "Higiene da Ferida",
+    "materiais": ["Soro fisiológico", "Gaze"],
+    "passos": ["Lavar com soro", "Secar cuidadosamente", "Aplicar curativo"],
+    "avisos": ["Não usar produtos irritantes", "Trocar curativo se molhar"]
+  },
+  {
+    "id": "14",
+    "youtubeId": "mnop1234",
+    "titulo": "Organizando medicação diária",
+    "descricao": "Dicas para organizar remédios no pós-operatório.",
+    "duracaoMin": 4,
+    "categoria": "Medicação",
+    "materiais": ["Caixa organizadora", "Receita médica"],
+    "passos": ["Separar doses", "Organizar por horário", "Conferir antes de tomar"],
+    "avisos": ["Não misturar medicamentos", "Guardar em local fresco"]
+  },
+  {
+    "id": "15",
+    "youtubeId": "qrst5678",
+    "titulo": "Reconhecendo sinais de infecção",
+    "descricao": "Saiba identificar infecção na ferida.",
+    "duracaoMin": 5,
+    "categoria": "Sinais de Alerta",
+    "materiais": ["Termômetro", "Espelho"],
+    "passos": ["Observar vermelhidão", "Checar temperatura", "Analisar secreção"],
+    "avisos": ["Procurar médico se houver pus", "Não ignorar sintomas"]
+  }
+]
